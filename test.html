@@ -16,15 +16,13 @@
         render: function(){
             return(
                 <div className="commnetBox">
-                    Hello, World! I am a CommentBox.
+                    <h1>Comments</h1>
+                    <CommentList />
+                    <CommentForm />
                     </div>
             );
         }
     });
-    ReactDOM.render(
-            <CommentBox />,
-            document.getElementById('content')
-    );
 
     var CommnetList=React.createClass({
         render: function(){
@@ -42,6 +40,24 @@
                     <div className="commentForm">
                         Hello, World! I am a CommentForm.
                         </div>
+            );
+        }
+    });
+
+    ReactDOM.render(
+            <CommentBox />,
+            document.getElementById('content')
+    );
+
+    var Comment=React.createClass({
+        render: function(){
+            return(
+                    <div className="comment">
+                        <h2 className="commentAuthor">
+                            {this.props.author}
+                        </h2>
+                            {this.props.children}
+                    </div>
             );
         }
     });
