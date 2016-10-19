@@ -4,61 +4,44 @@ html, body{
 }
 
 #header{
-    padding: 5px 5px 5px 5px;
+    padding: 5px 10px 5px 10px;
     background-color: #000000;
     border-bottom: 1px solid #838383;
-    /*height: 100%;*/
-    /*width: 100%;*/
     z-index: 0;
     position: relative;
 }
 
-#google_search{
-    margin: 5px 5px
-    align: right;
-}
-
-#footer1{
-    padding: 10px 0 10px 0;
-    background-color: #000;
-    border-top: 1px solid #838383;
-    z-index: 0;
-    position: relative;
-}
-
-#footer2{
-    padding: 1px 0 1px 0;
-    background-color: #000;
-    border-top: 1px solid #333;
-    z-index: 0;
-    position: relative;
+#test{
     color: white;
 }
 
-#footer3{
-    padding: 10px 0 10px 0;
+#content{
+    padding: 300px 0 300px 0;
+    background-color: #000000;
+}
+
+/*#google_search{*/
+    /*float: right;*/
+/*}*/
+
+/*#footer1{*/
+    /*padding: 10px 0 10px 0;*/
+    /*background-color: #000;*/
+    /*border-top: 1px solid #838383;*/
+    /*z-index: 0;*/
+    /*position: relative;*/
+/*}*/
+
+.footer{
     background-color: #000;
     border-top: 1px solid #333;
     z-index: 0;
     position: relative;
-    color: #ccc;
 }
 
-#list{
-    text-align: center;
-}
-
-#copyright{
-    text-align: center;
-}
-
-.nav ul{
-    margin: 0 auto;
-    width: 980px;
-}
-
-.nav li{
-    float: left;
+#menu{
+    padding: 0 60px 60px 60px;
+    z-index: 0;
 }
 
 ul{
@@ -67,7 +50,34 @@ ul{
     list-style: none;
 }
 
-.nav .nav-link{
+#link{
+    padding: 1px 0 1px 0;
+}
+
+#copyright{
+    padding: 10px 0 10px 0;
+}
+
+#sentence_link{
+    text-align: center;
+    font-family: Verdana;
+    font-size: 2px;
+    color: white;
+}
+
+#sentence_copyright{
+    text-align: center;
+    font-family: "Verdana";
+    font-size: 2px;
+    color: #ccc;
+}
+
+/*nav ul{*/
+    /*margin: 0 auto;*/
+    /*width: 980px;*/
+/*}*/
+
+.menu_bar_link{
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #333333), color-stop(1, #333333));
     color: white;
     display: block;
@@ -76,8 +86,12 @@ ul{
     text-align: center;
     padding: 18px 0px;
     opacity: 0.5;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    float: left;
+    z-index: 0;
 }
 
-.nav .nav-link:hover{
+.menu_bar_link:hover{
     opacity: 0.8;
 }
