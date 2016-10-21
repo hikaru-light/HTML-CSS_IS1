@@ -109,6 +109,7 @@ ul{
     border-right: 1px solid;
     float: left;
     z-index: 0;
+    text-decoration: none;
 }
 
 .menu_bar_link:hover{
