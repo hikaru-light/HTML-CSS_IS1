@@ -54,14 +54,44 @@ html, body{
 }
 
 #menu{
-    padding: 0 60px 0 60px;
+    padding: 0 0 0 0;
     z-index: 0;
 }
 
+nav{
+    text-align: center;
+}
+
 ul{
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
     list-style: none;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.menu_bar{
+    float: left;
+}
+
+.menu_bar_link{
+    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #333333), color-stop(1, #333333));
+    color: white;
+    display: inline-block;
+    width: 160px;
+    font-size: 16px;
+    text-align: center;
+    font-family: "Verdana";
+    padding: 18px 0px;
+    opacity: 0.5;
+    border-left: 1px solid;
+    border-right: 1px solid;
+    z-index: 0;
+    text-decoration: none;
+}
+
+.menu_bar_link:hover{
+    opacity: 0.8;
 }
 
 .clear{
@@ -88,30 +118,4 @@ ul{
     font-family: "Verdana";
     font-size: 2px;
     color: #ccc;
-}
-
-/*nav ul{*/
-    /*margin: 0 auto;*/
-    /*width: 980px;*/
-/*}*/
-
-.menu_bar_link{
-    background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #333333), color-stop(1, #333333));
-    color: white;
-    display: block;
-    width: 160px;
-    font-size: 16px;
-    text-align: center;
-    font-family: "Verdana";
-    padding: 18px 0px;
-    opacity: 0.5;
-    border-left: 1px solid;
-    border-right: 1px solid;
-    float: left;
-    z-index: 0;
-    text-decoration: none;
-}
-
-.menu_bar_link:hover{
-    opacity: 0.8;
 }
