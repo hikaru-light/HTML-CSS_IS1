@@ -20,20 +20,6 @@ html, body{
     margin: 0;
 }
 
-#video {
-    position: relative;
-    padding-top: 56.25%;
-}
-
-#video iframe{
-    height: 100%;
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 100%;
-}
-
-
 /*#content{*/
     /*padding: 300px 0 300px 0;*/
     /*background-color: #000000;*/
@@ -123,4 +109,8 @@ ul{
     font-family: "Verdana";
     font-size: 2px;
     color: #ccc;
+}
+
+#homework{
+    margin: 8px 0;
 }
